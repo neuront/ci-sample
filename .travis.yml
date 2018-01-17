@@ -6,4 +6,4 @@ before_script:
   - "export DISPLAY=:99.0"
   - node server.js &
   - sleep 3
-script: phantomjs test.js
+script: mocha-phantomjs test.js
