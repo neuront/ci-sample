@@ -1,6 +1,4 @@
 var page = require('webpage').create();
-var mocha = require('mocha');
-mocha.setup('bdd');
 
 describe('Page load', function() {
     it('loaded', function() {

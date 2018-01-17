@@ -7,6 +7,6 @@
 	"url": "git@github.com:neuront/ci-sample.git"
     },
     "devDependencies": {
-        "mocha": ">=2.0.0"
+        "mocha-phantomjs": ">=4.0.0"
     }
 }
