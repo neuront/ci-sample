@@ -1,4 +1,12 @@
 var page = require('webpage').create();
-page.open('http://localhost:8080/', function (status) {
-    phantom.exit();
+var mocha = require('mocha');
+mocha.setup('bdd');
+
+describe('Page load', function() {
+    it('loaded', function() {
+        page.open('http://localhost:8080/', function (status) {
+	    assert.eq(status, 'CI');
+            phantom.exit();
+        });
+    });
 });
