@@ -2,8 +2,7 @@ language: node_js
 node_js:
   - 8.9.4
 before_script:
-  - npm install
   - "export DISPLAY=:99.0"
   - node server.js &
   - sleep 3
-script: mocha-phantomjs test.js
+script: phantomjs entry.js
