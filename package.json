@@ -1,0 +1,12 @@
+{
+    "name": "ci-sample",
+    "version": 1.0,
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+	"url": "git@github.com:neuront/ci-sample.git"
+    },
+    "devDependencies": {
+        "mocha": ">=2.0.0"
+    }
+}
